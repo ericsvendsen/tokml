@@ -1,5 +1,5 @@
 var esc = require('xml-escape');
-var strxml = require('strxml'),
+var strxml = require('strxml-es'),
     tag = strxml.tag;
 
 module.exports = function tokml(geojson, options) {
